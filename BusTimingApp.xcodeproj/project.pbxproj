@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3074B1D31F79557100C9DFEC /* Custom Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3074B1D21F79557100C9DFEC /* Custom Views.swift */; };
+		309633DB1F5EE514004E9E13 /* Odin Rounded in Resources */ = {isa = PBXBuildFile; fileRef = 309633DA1F5EE514004E9E13 /* Odin Rounded */; };
+		309633FF1F6030EC004E9E13 /* BusAppTiming.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 309633FD1F6030EC004E9E13 /* BusAppTiming.xcdatamodeld */; };
+		309634011F604126004E9E13 /* BusStopTableVC+DATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309634001F604126004E9E13 /* BusStopTableVC+DATA.swift */; };
+		30C4CD001F56CDB5001F467E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CCFF1F56CDB5001F467E /* AppDelegate.swift */; };
+		30C4CD021F56CDB5001F467E /* BusStopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CD011F56CDB5001F467E /* BusStopTableViewController.swift */; };
+		30C4CD071F56CDB6001F467E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C4CD061F56CDB6001F467E /* Assets.xcassets */; };
+		30C4CD0A1F56CDB6001F467E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C4CD081F56CDB6001F467E /* LaunchScreen.storyboard */; };
+		30C4CD161F56D1C3001F467E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CD151F56D1C3001F467E /* Extensions.swift */; };
+		30C4CD181F56D1DE001F467E /* BusStopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CD171F56D1DE001F467E /* BusStopData.swift */; };
+		30C4CD1A1F56E980001F467E /* BusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4CD191F56E980001F467E /* BusCell.swift */; };
+		C9DB996AE0E5C61450138D77 /* Pods_BusTimingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E09C8581454F4359BD0EAE6 /* Pods_BusTimingApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E09C8581454F4359BD0EAE6 /* Pods_BusTimingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusTimingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD0AFD3789422A593410CAB /* Pods-BusTimingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusTimingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BusTimingApp/Pods-BusTimingApp.release.xcconfig"; sourceTree = "<group>"; };
+		305F7D52DB54033A680A32C6 /* Pods-BusTimingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusTimingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BusTimingApp/Pods-BusTimingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3074B1D21F79557100C9DFEC /* Custom Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom Views.swift"; sourceTree = "<group>"; };
+		309633DA1F5EE514004E9E13 /* Odin Rounded */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Odin Rounded"; sourceTree = "<group>"; };
+		309633FE1F6030EC004E9E13 /* BusAppTiming.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusAppTiming.xcdatamodel; sourceTree = "<group>"; };
+		309634001F604126004E9E13 /* BusStopTableVC+DATA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BusStopTableVC+DATA.swift"; sourceTree = "<group>"; };
+		30C4CCFC1F56CDB5001F467E /* BusTimingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusTimingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C4CCFF1F56CDB5001F467E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30C4CD011F56CDB5001F467E /* BusStopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopTableViewController.swift; sourceTree = "<group>"; };
+		30C4CD061F56CDB6001F467E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30C4CD091F56CDB6001F467E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30C4CD0B1F56CDB6001F467E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C4CD151F56D1C3001F467E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		30C4CD171F56D1DE001F467E /* BusStopData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopData.swift; sourceTree = "<group>"; };
+		30C4CD191F56E980001F467E /* BusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30C4CCF91F56CDB5001F467E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DB996AE0E5C61450138D77 /* Pods_BusTimingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB44736D95F9000D6A14DC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E09C8581454F4359BD0EAE6 /* Pods_BusTimingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301842021F65538B0065C0BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				309634001F604126004E9E13 /* BusStopTableVC+DATA.swift */,
+				30C4CD011F56CDB5001F467E /* BusStopTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		301842031F6553930065C0BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30C4CD191F56E980001F467E /* BusCell.swift */,
+				3074B1D21F79557100C9DFEC /* Custom Views.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		301842041F6553980065C0BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30C4CD171F56D1DE001F467E /* BusStopData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3025B2B3BB9110108C19C501 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				305F7D52DB54033A680A32C6 /* Pods-BusTimingApp.debug.xcconfig */,
+				2AD0AFD3789422A593410CAB /* Pods-BusTimingApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		30C4CCF31F56CDB5001F467E = {
+			isa = PBXGroup;
+			children = (
+				309633FD1F6030EC004E9E13 /* BusAppTiming.xcdatamodeld */,
+				309633DA1F5EE514004E9E13 /* Odin Rounded */,
+				30C4CCFE1F56CDB5001F467E /* BusTimingApp */,
+				3025B2B3BB9110108C19C501 /* Pods */,
+				0EB44736D95F9000D6A14DC0 /* Frameworks */,
+				30C4CCFD1F56CDB5001F467E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30C4CCFD1F56CDB5001F467E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30C4CCFC1F56CDB5001F467E /* BusTimingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30C4CCFE1F56CDB5001F467E /* BusTimingApp */ = {
+			isa = PBXGroup;
+			children = (
+				30C4CD151F56D1C3001F467E /* Extensions.swift */,
+				301842041F6553980065C0BD /* Model */,
+				301842031F6553930065C0BD /* Views */,
+				301842021F65538B0065C0BD /* Controllers */,
+				30C4CCFF1F56CDB5001F467E /* AppDelegate.swift */,
+				30C4CD061F56CDB6001F467E /* Assets.xcassets */,
+				30C4CD081F56CDB6001F467E /* LaunchScreen.storyboard */,
+				30C4CD0B1F56CDB6001F467E /* Info.plist */,
+			);
+			path = BusTimingApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30C4CCFB1F56CDB5001F467E /* BusTimingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C4CD0E1F56CDB6001F467E /* Build configuration list for PBXNativeTarget "BusTimingApp" */;
+			buildPhases = (
+				4F7390D7F315E780AE518B70 /* [CP] Check Pods Manifest.lock */,
+				30C4CCF81F56CDB5001F467E /* Sources */,
+				30C4CCF91F56CDB5001F467E /* Frameworks */,
+				30C4CCFA1F56CDB5001F467E /* Resources */,
+				1D8A4A718147582343C23F86 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusTimingApp;
+			productName = BusTimingApp;
+			productReference = 30C4CCFC1F56CDB5001F467E /* BusTimingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30C4CCF41F56CDB5001F467E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Aidan Aden";
+				TargetAttributes = {
+					30C4CCFB1F56CDB5001F467E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R7XAYQL5TS;
+						LastSwiftMigration = 1030;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 30C4CCF71F56CDB5001F467E /* Build configuration list for PBXProject "BusTimingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30C4CCF31F56CDB5001F467E;
+			productRefGroup = 30C4CCFD1F56CDB5001F467E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30C4CCFB1F56CDB5001F467E /* BusTimingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30C4CCFA1F56CDB5001F467E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309633DB1F5EE514004E9E13 /* Odin Rounded in Resources */,
+				30C4CD0A1F56CDB6001F467E /* LaunchScreen.storyboard in Resources */,
+				30C4CD071F56CDB6001F467E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D8A4A718147582343C23F86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusTimingApp/Pods-BusTimingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BusTimingApp/Pods-BusTimingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F7390D7F315E780AE518B70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BusTimingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30C4CCF81F56CDB5001F467E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309633FF1F6030EC004E9E13 /* BusAppTiming.xcdatamodeld in Sources */,
+				30C4CD181F56D1DE001F467E /* BusStopData.swift in Sources */,
+				30C4CD161F56D1C3001F467E /* Extensions.swift in Sources */,
+				30C4CD021F56CDB5001F467E /* BusStopTableViewController.swift in Sources */,
+				30C4CD001F56CDB5001F467E /* AppDelegate.swift in Sources */,
+				30C4CD1A1F56E980001F467E /* BusCell.swift in Sources */,
+				3074B1D31F79557100C9DFEC /* Custom Views.swift in Sources */,
+				309634011F604126004E9E13 /* BusStopTableVC+DATA.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30C4CD081F56CDB6001F467E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C4CD091F56CDB6001F467E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30C4CD0C1F56CDB6001F467E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30C4CD0D1F56CDB6001F467E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30C4CD0F1F56CDB6001F467E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305F7D52DB54033A680A32C6 /* Pods-BusTimingApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7XAYQL5TS;
+				INFOPLIST_FILE = BusTimingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanAidan.BusTimingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		30C4CD101F56CDB6001F467E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD0AFD3789422A593410CAB /* Pods-BusTimingApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7XAYQL5TS;
+				INFOPLIST_FILE = BusTimingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanAidan.BusTimingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30C4CCF71F56CDB5001F467E /* Build configuration list for PBXProject "BusTimingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C4CD0C1F56CDB6001F467E /* Debug */,
+				30C4CD0D1F56CDB6001F467E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C4CD0E1F56CDB6001F467E /* Build configuration list for PBXNativeTarget "BusTimingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C4CD0F1F56CDB6001F467E /* Debug */,
+				30C4CD101F56CDB6001F467E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		309633FD1F6030EC004E9E13 /* BusAppTiming.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				309633FE1F6030EC004E9E13 /* BusAppTiming.xcdatamodel */,
+			);
+			currentVersion = 309633FE1F6030EC004E9E13 /* BusAppTiming.xcdatamodel */;
+			path = BusAppTiming.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30C4CCF41F56CDB5001F467E /* Project object */;
+}

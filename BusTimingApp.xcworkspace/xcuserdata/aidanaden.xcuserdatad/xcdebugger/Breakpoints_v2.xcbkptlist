@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F0AD9F0B-8128-4A7D-98FA-970C2BAE0E53"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C19D1434-DAA7-474E-8F8B-F181F5D2CD06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusCell.swift"
+            timestampString = "530950804.163433"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "BusCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "C110A187-B214-4FD1-AEDC-76B26BBD2395"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "UICollectionViewFlowLayoutBreakForInvalidSizes"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "C110A187-B214-4FD1-AEDC-76B26BBD2395 - e01c8be6878e1e41"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UICollectionViewFlowLayoutBreakForInvalidSizes"
+                  moduleName = "UIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95155B8E-444E-42B0-B97E-F971D2B12636"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusTabBarController.swift"
+            timestampString = "527528194.803327"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "loadTabBar()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D488F66-3028-402C-B956-BF1951C3E455"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusCell.swift"
+            timestampString = "530950804.164304"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "BusCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21CE80B3-A581-4A4D-92E0-FE9746647E29"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusStopCollectionVCExt.swift"
+            timestampString = "526554318.955103"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "setupStopData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A065090-3ED4-431F-9E84-7B62388673BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusStopCollectionVCExt.swift"
+            timestampString = "526405307.352619"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "createGarbage(context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6597A9D7-A0DC-472E-9710-F38F6A717CF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusStopCollectionViewController.swift"
+            timestampString = "527528839.98318"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "BusStopCollectionViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D34F929-8A8D-4F1F-87C6-CF7C46280D97"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusCell.swift"
+            timestampString = "530950804.16467"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "updateBusTimings()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D469F010-07E7-49BC-90F7-71E49093F9EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusCell.swift"
+            timestampString = "530950804.164967"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "updateBusTimings()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D469F010-07E7-49BC-90F7-71E49093F9EB - 59f9c7ffebf8f866"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BusTimingApp.BusCell.updateBusTimings () -&gt; ()"
+                  moduleName = "BusTimingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aidanaden/Desktop/BusTimingApp/BusTimingApp/BusCell.swift"
+                  timestampString = "526558303.182534"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "D469F010-07E7-49BC-90F7-71E49093F9EB - 59f9c7ffebf8f866"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BusTimingApp.BusCell.updateBusTimings () -&gt; ()"
+                  moduleName = "BusTimingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aidanaden/Desktop/BusTimingApp/BusTimingApp/BusCell.swift"
+                  timestampString = "526558303.187228"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55995D74-5874-4DA9-9C1E-FF8690C07F7B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusStopData.swift"
+            timestampString = "530942708.176267"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "readJSON(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C2D234D-A321-423A-A6E4-D846DF2F586C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusStopData.swift"
+            timestampString = "530942708.176454"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "readJSON(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "731FB06A-825E-4A5D-B79E-87ED5E4AFB8C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusCell.swift"
+            timestampString = "530950804.165327"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "populateCell(busNumber:nextBus:subBus:busURL:stopNum:bookMarked:nextStanding:subStanding:nextBusType:subBusType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38EC5F91-A5C0-490E-BDB5-BAF533F6318B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusStopTableVC+DATA.swift"
+            timestampString = "528182534.975275"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "updateBookmarkedValues(buses:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD621A9B-7CAF-4D74-90E9-4380902071FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusStopTableVC+DATA.swift"
+            timestampString = "528182534.978494"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "updateBookmarkedValues(buses:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4091169-D381-40A9-9415-6146E00D7458"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusStopTableVC+DATA.swift"
+            timestampString = "528182534.979323"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "updateBookmarkedValues(buses:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4091169-D381-40A9-9415-6146E00D7458 - db39a56fb316dfce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BusTimingApp.BusStopCollectionViewController.updateBookmarkedValues(buses: Swift.Array&lt;BusTimingApp.BusData&gt;) -&gt; ()"
+                  moduleName = "BusTimingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aidanaden/Desktop/BusTimingApp/BusTimingApp/BusStopTableVC+DATA.swift"
+                  timestampString = "528135968.922242"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "A4091169-D381-40A9-9415-6146E00D7458 - 21017985d93e4d85"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in BusTimingApp.BusStopCollectionViewController.updateBookmarkedValues(buses: Swift.Array&lt;BusTimingApp.BusData&gt;) -&gt; ()"
+                  moduleName = "BusTimingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aidanaden/Desktop/BusTimingApp/BusTimingApp/BusStopTableVC+DATA.swift"
+                  timestampString = "528135968.929082"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1650FD4-8350-43A7-8D4C-65BB0CD2FEBE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusStopTableVC+DATA.swift"
+            timestampString = "528182534.982273"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "updateBookmarkedValues(buses:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A1650FD4-8350-43A7-8D4C-65BB0CD2FEBE - db39a56fb316dfce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BusTimingApp.BusStopCollectionViewController.updateBookmarkedValues(buses: Swift.Array&lt;BusTimingApp.BusData&gt;) -&gt; ()"
+                  moduleName = "BusTimingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aidanaden/Desktop/BusTimingApp/BusTimingApp/BusStopTableVC+DATA.swift"
+                  timestampString = "528135958.602104"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "A1650FD4-8350-43A7-8D4C-65BB0CD2FEBE - 21017985d93e4d85"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in BusTimingApp.BusStopCollectionViewController.updateBookmarkedValues(buses: Swift.Array&lt;BusTimingApp.BusData&gt;) -&gt; ()"
+                  moduleName = "BusTimingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aidanaden/Desktop/BusTimingApp/BusTimingApp/BusStopTableVC+DATA.swift"
+                  timestampString = "528135958.608058"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A960EC9-91A8-4F23-B0F1-74C4430BDC10"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusStopTableVC+DATA.swift"
+            timestampString = "528182534.985177"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "updateBookmarkedValues(buses:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B25C00C8-4DB3-454B-B756-14D437C5106B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusStopTableVC+DATA.swift"
+            timestampString = "528182534.986037"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "updateBusArrayTimings()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAB9D503-8587-4CE2-AB0E-08AAFBB3B9BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BusTimingApp/BusStopTableVC+DATA.swift"
+            timestampString = "528182534.986678"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "updateBusArrayTimings()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
